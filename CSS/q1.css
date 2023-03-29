@@ -1,0 +1,152 @@
+table {
+    margin-left: 40%;
+    padding: 20px;
+    text-align: center;
+    display: inline;
+    overflow-wrap: normal;
+    width: 70%;
+    font-family: Arial, serif;
+    border: 2px solid white;
+}
+
+th {
+    font-size: 30px;
+    overflow-wrap: normal;
+    color: rgb(146, 83, 31);
+    background-color:rgb(138, 193, 202)
+}
+
+td {
+    padding: 10px;
+    font-size: 20px;
+    height: 170px;
+    width: 200px;
+    overflow-wrap: normal;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: rgb(198, 223, 174);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.text {
+    width: 600px;
+    height: 1200px;
+    background: rgba(131, 206, 219, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+    margin-left: 40%;
+}
+  
+li a {
+    margin-left: 10%;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+  
+li a.active {
+    background-color: rgb(198, 223, 174);
+    color: white;
+}
+  
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+td:hover {
+    background-color: rgb(198, 223, 174)
+}
+
+ul {
+    text-align: left;
+}
+
+img {
+    padding: 50px;
+}
+
+.btn-group .button {
+    background-color: #c47493;
+    border: 1px solid #c47493;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-group .button:hover {
+    background-color: #754558;
+}
+
+.btn-group .button3:hover {
+    background-color: #754558;
+}
+
+.btn-group-2 .button2 {
+    background-color: #a771bd;
+    border: 1px solid #a771bd;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button3 {
+    background-color: #c47493;
+    border: 1px solid #c47493;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-group-2 .button2:hover {
+    background-color: #5c3d68;
+}
+
+#link {
+    background-color: white;
+    color: rgb(4, 86, 163);
+    border: 2px solid rgb(4, 86, 163);;
+    text-align: center;
+    padding: 10px 20px;
+    display: inline-block;
+    text-align: center;
+    display: inline;
+    font-family: Arial, serif;
+}
+
+#link:hover {
+    background-color:rgb(4, 86, 163);;
+    color: white;
+}
+
+#output {
+    margin-left: 30%;
+    color: rgb(236, 218, 218);
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

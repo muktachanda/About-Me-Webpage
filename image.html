@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Image
+    </title>
+</head>
+
+<style type="text/css">
+    h1 {
+        font-size: 40px;
+        text-align: center;
+        color:darksalmon;
+
+    }
+    body {
+        background-color: black;
+        margin: 100px;
+    }
+
+    img {
+        height: 400px;
+        width: 325px;
+        border-radius: 10px;
+        margin-left: 500px;
+    }
+
+    div {
+        margin-left: 150px;
+    }
+
+    p {
+        color: white;
+        font-size: 12px;
+        text-align: right;
+        margin-right: 750px;
+    }
+
+    button {
+        background-color: black;
+        color: white;
+        padding: 30px;
+        font-size: 20px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 750px;
+    }
+
+</style>
+
+<script>
+    function choose1() {
+        window.location.href = "index.html";
+        document.getElementById("image").src = "Media/pic.jpg";
+    }
+
+    var count = 0;
+    var colors = ["violet", "indigo", "blue", "green", "yellow", "orange", "red"];
+
+    function disco() {
+       document.body.style.backgroundColor = colors[count];
+       count = (count+1) % 7;
+    }
+
+</script>
+
+<body>
+    <br><br><br><br>
+
+    <a href="link.html" rel="import"></a>
+
+    <div>
+        <img id="pic" src=Media/mypic.jpg onMouseOver="this.src = 'Media/mypicbw.jpg'" onMouseOut = "this.src = 'Media/mypic.jpg'" onClick="choose1()">
+    </div>
+
+    <p>Click on the image to go back</p><br><br>
+
+    <button onClick="disco()">Disco</button>
+
+</body>
+
+</html>
